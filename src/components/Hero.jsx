@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import {
   ArrowRight, BrickWall, ChevronRight, Flower2, Menu, Phone, Scissors, ShieldCheck, Shovel, X,
 } from 'lucide-react'
-import { business, heroSlides, navLinks } from '../data'
+import { business, heroSlides, navLinks } from '@/data'
 import Logo from './Logo'
 
 const quickServices = [

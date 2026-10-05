@@ -15,9 +15,9 @@ npm run build    # static export in out/ (deploy anywhere static: Netlify, Verce
 ## Where things live
 
 - `src/data.js`: all business content (phone, services, coupons, warranties, gallery list, service areas). Edit copy here.
-- `app/layout.jsx`: page <head> (title, meta, fonts). `app/page.jsx` renders `src/App.jsx`.
+- `src/app/layout.jsx`: page <head> (title, meta, fonts). `src/app/page.jsx`: section order.
 - `src/components/`: Hero, page sections, contact form and footer.
-- `src/index.css`: all styles; brand colors are CSS variables at the top.
+- `src/app/globals.css`: all styles; brand colors are CSS variables at the top.
 - `public/images/work/`: the client's own job photos, cropped from the old site's gallery slides.
 - `public/images/stock/`: free-license Unsplash photos (hero, service cards, reviews banner).
 
