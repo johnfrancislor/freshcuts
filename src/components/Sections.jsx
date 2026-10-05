@@ -1,3 +1,5 @@
+'use client'
+
 import { useEffect, useState } from 'react'
 import {
   BadgePercent, CalendarCheck, Check, ChevronDown, Home, MapPin, ShieldCheck, Star, Ticket, X,

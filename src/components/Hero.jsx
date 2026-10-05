@@ -1,3 +1,5 @@
+'use client'
+
 import { useEffect, useState } from 'react'
 import {
   ArrowRight, BrickWall, ChevronRight, Flower2, Menu, Phone, Scissors, ShieldCheck, Shovel, X,
