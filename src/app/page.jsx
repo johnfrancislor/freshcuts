@@ -1,8 +1,8 @@
-import Hero from './components/Hero'
-import { About, Gallery, Guarantees, Perks, Reviews, ServiceArea, Services, Specials } from './components/Sections'
-import { Contact, Footer } from './components/Contact'
+import Hero from '@/components/Hero'
+import { About, Gallery, Guarantees, Perks, Reviews, ServiceArea, Services, Specials } from '@/components/Sections'
+import { Contact, Footer } from '@/components/Contact'
 
-export default function App() {
+export default function Home() {
   return (
     <>
       <Hero />

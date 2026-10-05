@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { CalendarCheck, Mail, MapPin, Phone, Send } from 'lucide-react'
-import { business, navLinks, serviceGroups } from '../data'
+import { business, navLinks, serviceGroups } from '@/data'
 import Logo from './Logo'
 import { FacebookIcon } from './Sections'
 

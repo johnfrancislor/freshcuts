@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import {
   BadgePercent, CalendarCheck, Check, ChevronDown, Home, MapPin, ShieldCheck, Star, Ticket, X,
 } from 'lucide-react'
-import { business, coupons, gallery, guarantees, serviceAreas, serviceGroups } from '../data'
+import { business, coupons, gallery, guarantees, serviceAreas, serviceGroups } from '@/data'
 
 export function FacebookIcon({ size = 18 }) {
   return (
